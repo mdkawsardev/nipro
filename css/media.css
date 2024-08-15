@@ -1,0 +1,756 @@
+/* extra small  */
+@media (max-width: 575.98px){
+    /* header start  */
+    header{
+        padding: .2rem 0;
+    }
+    .logo::before{
+        height: 1.2rem;
+    }
+    .logo .l_h1{
+        font-size: 20px;
+    }
+    .menu ul li a{
+        margin: .4rem 0;;
+    }
+    .s_menu[data-bs-popper] {
+        top: 120%;
+        left: -12px;
+        width: 320PX;
+    }
+    /* header end  */
+    /* banner start  */
+    .b_title{
+        padding: 23px 0;
+    }
+    .bt_h2{
+        font-size: 35px;
+    }
+    .bt_p{
+        margin: 20px 0 25px;
+    }
+    .bt_link{
+        padding: 5px 15px;
+        font-size: 14px;
+    }
+    .bt_link .icon{
+        margin: 0 5px;
+    }
+    .button{
+        display: flex;
+        justify-content: center;
+    }
+    /* banner end  */
+    /* welcome section start  */
+    .w1_title {
+        padding: 30px 0 30px;
+    }
+    .cm_h2 {
+        font-size: 20px;
+    }
+    .cm_h2::before {
+        height: 30px;
+        top: -30px;
+    }
+    .item {
+        margin: 25px 0px 0;
+        padding: 0 15px 0px;
+    }
+    .item .item_i {
+        font-size: 45px;
+    }
+    .item_h3 {
+        margin: 30px 0 30px;
+        font-size: 16px;
+    }
+    p{
+        margin: 0 0 .6rem;
+    }
+    .about {
+        margin: 50px 0px 50px;
+    }
+    .s_about{
+        margin: 0;
+    }
+    .about_text {
+        margin: 0 0 50px;
+    }
+    .a_h4 {
+        text-align: center;
+        font-size: 25px;
+    }
+    .a_p{
+        line-height: 25px;
+    }
+    .a_p1 {
+        margin: 15px 0;
+    }
+    .a_p2 {
+        margin: 0 0 30px;
+    }
+    .s_a_link{
+        display: flex;
+        justify-content: center;
+    }
+    .about_link{
+        padding: 5px 5px;
+    }
+    .about_link .a_icon {
+        margin: 0 0 0 5px;
+    }
+    /* welcome section end  */
+    /* resent section start  */
+    .ss_menu{
+        display: flex;
+        justify-content: start;
+    }
+    .second_menu .ss_link{
+        margin: 0;
+    }
+    /* resent section end  */
+    /* choose section start  */
+    .choose {
+        padding: 0 0 50px;
+    }
+    .choose_item{
+        margin: 20px 0 0;
+        text-align: center;
+    }
+    .choose_item .c_icon{
+        margin: 0 0 10px;
+        font-size: 30px;
+    }
+    .choose_heading{
+        display: flex;
+        justify-content: center;
+    } 
+    .choose_item p {
+        margin: 20px 0 25px;
+    }
+    /* choose section end  */
+    /* work section start  */
+    .work{
+        padding: 0 0 50px;
+    }
+    .p_img{
+        margin: 30px 0 0;
+    }
+    /* work section end  */
+    /* pricing section start  */
+    .pricing{
+        margin: 0 0 50px;
+    }
+    .p_card{
+        margin: 30px 0px 0;
+        padding: 25px 40px 30px;
+    }
+    .p_card .dollar{
+        font-size: 30px;
+    }
+    .p_card .pri_link{
+        padding: 5px 15px;
+    }
+    /* pricing section end  */
+    /* nipro start  */
+    .buy{
+        padding: 15px 0;
+    }
+    .buy1 {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+    .buy2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .buy1 h6{
+        text-align: center;
+        font-size: 16px;
+        line-height: 25px;
+    }
+    /* nipro end  */
+    /* contact section start  */
+    .details{
+        margin: 50px 0px 30px;
+        padding: 18px 10px;
+    }
+    .d_text .d_name {
+        margin-top: 20px;
+    }
+    .d_text .small {
+        margin: 5px 0;
+    }
+    .mm {
+        margin: 0 0 5px;
+    }
+    .choto {
+        top: 10px;
+        left: 10px;
+    }
+    .d_btn{
+        display: flex;
+        justify-content: space-between;
+        margin: 0 0 50px;
+    }
+    .d_btn .button {
+        margin: 10px 10px;
+        padding: 0;
+        writing-mode: horizontal-tb;
+    }
+    .d_btn span{
+        margin: 10px 0;
+        writing-mode: horizontal-tb;
+    }
+    .form{
+        padding: 0 10px;
+    }
+    .contact2 {
+        top: -20px;
+        left: 25%;
+    }
+    .contact2 span {
+        font-size: 20px;
+    }
+    .input_group input{
+        padding: 5px 5px 0;
+    }
+    .input_group label{
+        font-size: 16px;
+        left: 5px;
+    }
+    .input_group input:focus~label,
+    .input_group input:valid~label{
+    font-size: 14px;
+    }
+    .bbb{
+        margin: 15px 0;
+    }
+    .last_btn{
+        font-size: 14px;
+        padding: 5px 15px;
+    }
+    /* contact section end  */
+    /* contact section end  */
+    footer {
+        margin: 40px 0 0;
+    }
+    .l_so_link {
+        padding: 20px 0 30px;
+    }
+    .l_links a {
+        height: 35px;
+        width: 35px;
+        font-size: 20px;
+    }
+    .f_l_item {
+        display: flex;
+        justify-content: center;
+        padding: 20px 0;
+    }
+    .ll_pp p{
+        text-align: center;
+    }
+    .footer_menu {
+        padding: 0 85px;
+        display: flex;
+        justify-content: center;
+        padding-top: 0;
+    }
+    .footer_menu ul li a{
+        display: inline-block;
+        margin: 10px 0;
+    }
+    /* footer end  */
+}
+/* small  */
+@media (min-width: 576px) and (max-width: 767.98px){
+    /* header start  */
+    header{
+        padding: .6rem 0;
+    }
+    .logo::before{
+        height: 1.5rem;
+    }
+    .logo .l_h1{
+        font-size: 25px;
+    }
+    .menu ul li a{
+        margin: .5rem 0;
+        display: inline-block;
+        position: relative;
+    }
+    .s_menu[data-bs-popper] {
+        top: 165%;
+        left: -36px;
+        width: 350PX;
+    }
+    /* header end  */
+    /* banner start  */
+    .b_title{
+        padding: 40px 0;
+    }
+    .bt_h2{
+        font-size: 36px;
+    }
+    .bt_p{
+        margin: 20px 0 25px;
+    }
+    .bt_link{
+        padding: 6px 2px 6px 6px;
+        font-size: 15px;
+    }
+    .bt_link .icon{
+        margin: 0 5px;
+    }
+    .button{
+        display: flex;
+        justify-content: center;
+    }
+    /* banner end  */
+    /* welcome section start  */
+    .w1_title {
+        padding: 40px 0 30px;
+    }
+    .cm_h2 {
+        font-size: 25px;
+    }
+    .cm_h2::before {
+        height: 30px;
+        top: -30px;
+    }
+    .item {
+        margin: 30px 70px 0;
+    }
+    .item_i {
+        left: 43%;
+    }
+    .item .item_i {
+        font-size: 45px;
+    }
+    .item_h3 {
+        margin: 35px 0 30px;
+    }
+    .item_h3::before {
+        left: 43%;
+    }
+    .about {
+        margin: 50px 70px 50px;
+    }
+    .s_about{
+        margin: 0;
+    }
+    .about_text {
+        margin: 0 0 50px;
+    }
+    .a_h4 {
+        text-align: center;
+        font-size: 25px;
+    }
+    .a_p1 {
+        margin: 20px 0;
+    }
+    .a_p2 {
+        margin: 0 0 30px;
+    }
+    .s_a_link{
+        display: flex;
+        justify-content: center;
+    }
+    .about_link{
+        padding: 5px 5px;
+    }
+    .about_link .a_icon {
+        margin: 0 0 0 5px;
+    }
+    /* welcome section end  */
+    /* resent section start  */
+    .w1_title {
+        padding: 30px 0 20px;
+    }
+    .ss_menu{
+        display: flex;
+        justify-content: start;
+    }
+    .second_menu .ss_link{
+        margin: 0;
+    }
+    /* resent section end  */
+    /* choose section start  */
+    .choose {
+        padding: 0 0 50px;
+    }
+    .choose_item{
+        margin: 30px 35px 0;
+        text-align: center;
+    }
+    .choose_item .c_icon{
+        font-size: 25px;
+        margin: 0 0 10px;
+    }
+    .choose_heading{
+        display: flex;
+        justify-content: center;
+    } 
+    .choose_item p {
+        margin: 20px 0 25px;
+    }
+    /* choose section end  */
+    /* work section start  */
+    .work{
+        padding: 0 0 50px;
+    }
+    .p_img{
+        margin: 35px 35px 0;
+    }
+    /* work section end  */
+    /* pricing section start  */
+    .pricing{
+        margin: 0 0 70px;
+    }
+    .p_card{
+        margin: 40px 125px 0;
+        padding: 30px 40px 35px;
+    }
+    .p_card .dollar{
+        font-size: 30px;
+    }
+    .p_card .pri_link{
+        padding: 10px 30px;
+    }
+    /* pricing section end  */
+    /* nipro start  */
+    .buy{
+        padding: 20px 0;
+    }
+    .buy1{
+        padding: 30px 0 0;
+    }
+    .buy h6{
+        font-size: 16px;
+    }
+    /* nipro end  */
+    /* contact section start  */
+    .details{
+        margin: 50px 50px;
+        padding: 29px 25px;
+    }
+    .d_text .d_name {
+        margin-top: 20px;
+    }
+    .d_text .small {
+        margin: 5px 0;
+    }
+    .mm {
+        margin: 0 0 5px;
+    }
+    .choto {
+        top: 10px;
+        left: 10px;
+    }
+    .d_btn{
+        display: flex;
+        justify-content: space-between;
+        margin: 0 50px 50px;
+    }
+    .d_btn .button {
+        margin: 10px 10px;
+        padding: 0;
+        writing-mode: horizontal-tb;
+    }
+    .d_btn span{
+        margin: 10px 0;
+        writing-mode: horizontal-tb;
+    }
+    .form{
+        padding: 0 50px;
+    }
+    .contact2 {
+        top: -20px;
+        left: 33%;
+    }
+    .contact2 span {
+        font-size: 22px;
+    }
+    .bbb{
+        margin: 20px 0;
+    }
+    /* contact section end  */
+    footer {
+        margin: 50px 0 0;
+    }
+    .l_so_link {
+        padding: 20px 0 30px;
+    }
+    .l_links a {
+        height: 35px;
+        width: 35px;
+    }
+    .f_l_item {
+        display: flex;
+        justify-content: center;
+        padding: 20px 0;
+    }
+    .footer_menu {
+        display: flex;
+        justify-content: center;
+        padding-top: 0;
+    }
+    /* footer end  */
+}
+/* medium */
+@media (min-width: 768px) and (max-width: 991.98px){
+    /* header start  */
+    .menu ul li a{
+        margin: .5rem 0;
+        display: inline-block;
+        position: relative;
+    }
+    .s_menu[data-bs-popper] {
+        top: 165%;
+        left: -36px;
+        width: 350PX;
+    }
+    /* header end  */
+    /* banner start  */
+    .b_title{
+        padding: 100px 0;
+    }
+    .bt_h2{
+        font-size: 40px;
+    }
+    .bt_p{
+        margin: 20px 0 25px;
+    }
+    .bt_link{
+        padding: 8px 2px 8px 12px;
+    }
+    /* banner end  */
+    /* welcome section start  */
+    .item {
+        margin: 50px 0 0;
+    }
+    .about {
+        margin: 50px 0 50px;
+    }
+    .about_text{
+        margin: 0;
+    }
+    .a_h4 {
+        line-height: 23px;
+    }
+    .a_p{
+        line-height: 30px;
+    }
+    .a_p1{
+        margin: 20px 0;
+    }
+    .a_p2{
+        margin: 0 0 25px;
+    }
+    .about_link{
+        padding: 5px 5px;
+    }
+    /* welcome section end  */
+    /* resent section start  */
+    .ss_menu{
+        display: flex;
+        justify-content: start;
+    }
+    .second_menu .ss_link{
+        margin: 0;
+    }
+    /* resent section end  */
+    /* choose section start  */
+    .choose {
+        padding: 0 0 60px;
+    }
+    .choose_item .c_icon {
+        font-size: 35px;
+    }
+    /* choose section end  */
+    /* work section start  */
+    .work{
+        padding: 0 0 70px;
+    }
+    .p_img{
+        margin: 25px 0 0;
+    }
+    /* work section end  */
+    /* pricing section start  */
+    .pricing{
+        margin: 0 0 70px;
+    }
+    .p_card{
+        padding: 30px 40px 35px;
+    }
+    .p_card .pri_link{
+        padding: 10px 30px;
+    }
+    /* pricing section end  */
+    /* contact section start  */
+    .details{
+        margin: 80px 0;
+        padding: 29px 25px;
+    }
+    .d_text .small {
+        margin: 10px 0;
+    }
+    .mm {
+        margin: 0 0 10px;
+    }
+    .choto {
+        top: 10px;
+        left: 10px;
+    }
+    .d_btn{
+        margin: 80px 0;
+    }
+    .btn1{
+        margin: 30px auto 101px;
+    }
+    .btn2{
+        margin: 101px auto 30px;
+    }
+    .form{
+        padding: 0 60px;
+    }
+    .contact2 {
+        top: -20px;
+        left: 37%;
+    }
+    .contact2 span {
+        font-size: 25px;
+    }
+    .bbb{
+        margin: 20px 0;
+    }
+    /* contact section end  */
+    /* footer start  */
+    footer {
+        margin: 60px 0 0;
+    }
+    .l_so_link {
+        padding: 25px 0 40px;
+    }
+    .l_links a {
+        height: 40px;
+        width: 40px;
+    }
+    .f_l_item {
+        display: flex;
+        justify-content: center;
+        padding: 30px 0;
+    }
+    .footer_menu {
+        display: flex;
+        justify-content: center;
+        padding-top: 0;
+    }
+    /* footer end  */
+}
+/* large  */
+@media (min-width: 992px) and (max-width: 1199.98px){
+    /* banner start  */
+    .bt_h2{
+        font-size: 45px;
+    }
+    /* banner end  */
+    /* welcome section start  */
+    .about_text{
+        margin: 0 0 0 22px;
+    }
+    .a_h4 {
+        line-height: 23px;
+    }
+    .a_p{
+        line-height: 25px;
+    }
+    .a_p1{
+        margin: 10px 0;
+    }
+    .a_p2{
+        margin: 0 0 8px;
+    }
+    .about_link{
+        padding: 5px 5px;
+    }
+    /* welcome section end  */
+    /* work section start  */
+    .p_text{
+        padding: 10px 10px;
+    }
+    .p_text h6{
+        font-size: 16px;
+    }
+    /* work section end  */
+    /* pricing section start  */
+    .p_card{
+        margin: 40px 0 0;
+        padding: 50px 15px 40px;
+    }
+    .p_card .pri_link{
+        padding: 10px 30px;
+    }
+    /* pricing section end  */
+    /* contact section start  */
+    .btn1{
+        margin: 30px auto 81px;
+    }
+    .btn2{
+        margin: 81px auto 30px;
+    }
+    .form{
+        padding: 0 100px;
+    }
+    .contact2 {
+        top: -20px;
+    }
+    .contact2 span {
+        font-size: 25px;
+    }
+    /* contact section end  */
+}
+/* extra large  */
+@media (min-width: 1200px) and (max-width: 1399.98px){
+    /* banner start  */
+    .bt_h2{
+        font-size: 50px;
+    }
+    /* banner end  */
+    /* welcome section start  */
+    .a_p{
+        line-height: 30px;
+    }
+    .a_p1{
+        margin: 15px 0;
+    }
+    .a_p2{
+        margin: 0 0 15px;
+    }
+    .about_link{
+        padding: 10px 15px;
+    }
+    /* welcome section end  */
+    /* work section start  */
+    .p_text{
+        padding: 10px 23px;
+    }
+    /* work section end  */
+    /* pricing section start  */
+    .p_card .pri_link{
+        padding: 10px 30px;
+    }
+    /* pricing section end  */
+    /* contact section start  */
+    .btn1{
+        margin: 35px auto 88px;
+    }
+    .btn2{
+        margin: 88px auto 35px;
+    }
+    /* contact section end  */
+}
+/* extra extra large  */
+@media (min-width: 1400px){}
